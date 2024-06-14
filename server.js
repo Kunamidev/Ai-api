@@ -50,7 +50,7 @@ app.get('/gemini-ai', async (req, res) => {
     res.json(response);
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8257;
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
